@@ -16,45 +16,37 @@ print(z)
 
 # STRINGS
 person_name = "DEEPIKA"
-person_status = """Soon to get a the job she loves and gonna be filthy rich"""
-person_confidence = 1000000000000000000000000000000000000000000000000000.00000
 print(person_name)
-print(person_status)
-print(person_confidence)
+
 
 
 
 # To orint the type of the variable 
 print(type(person_name))
-print(type(person_status))
-print(type(person_confidence))
 
 
 # f-Strings or Format string 
-str1 = "Deepika is gonna get a job soon "
-str2 = """ Soon she will receive an interview. 
-           She is gonna be amazing in the interview"""
+str1 = "Deepika"
+str2 = """ Sampath Kumar"""
 
 print(str1 + str2)
 print(f'{str1} {str2}')
 
-salary = 3000;
-print(f' Deepika is gonna get {salary} euros as her starting pay')
 
 
 # User input 
 user_name = input("Enter your name: ")
-user_salary = input("Enter your salary expectations: ")
+user_age = input("Enter your age: ")
 
 print(type(user_name))
-print(type(user_salary))  # Note: Input stopres the values as strings only
+print(type(user_age))  # Note: Input stopres the values as strings only
 
 # Datatype conversion 
-str2int = int(user_salary)  # String to Integer
+str2int = int(user_age)  # String to Integer
 print(str2int)
 print(type(str2int))
 
-str2float = float(user_salary) # String to float
+str2float = float(user_age) # String to float
 print(str2float)
 print(type(str2float))
 
